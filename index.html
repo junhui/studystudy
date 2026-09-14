@@ -1,5 +1,613 @@
-<link rel="stylesheet" href="study.css"><script src="study.js"></script>
-<div id="courseNavigation">
+<link rel="stylesheet" href="study.css"><script src="study.js"></script><div id="mainContainer" class=" main-container container-fluid" style="outline: red solid 5px; outline-offset: 5px;">
+	
+
+
+
+
+
+
+
+
+<exit-pop-modal></exit-pop-modal>
+
+
+
+
+
+
+
+
+
+
+
+
+<header data-cname="course_page" data-track-visible="" data-extra="pageVariant=DEFAULT">
+	
+	
+	
+		<div class="pageNavigation">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+<div data-cname="page_navigation" test-id="page_navigation">
+	<div class="left-content ">
+		
+			
+			
+			
+				
+					
+				
+					
+				
+				
+				
+				
+				
+				
+					
+						
+						
+							<a href="/academy/subj/social-science.html" class="crumb" data-cname="back_to_course" test-id="back_to_course">
+								<span class="icon-arrow-left"></span>&nbsp;Social Science<span class="hidden-xs">&nbsp;Courses</span>
+							</a>
+						
+					
+				
+			
+		
+	</div>
+	
+	<div class="right-content">
+		
+			
+				
+				
+					
+				
+			
+			
+			<a href="/what-is-the-ctel-exam.html" class="crumb" data-cname="top_next_lesson" test-id="top_next_lesson" data-virtual="536345">
+				First Lesson&nbsp;<span class="icon-arrow-right"></span>
+			</a>
+		
+	</div>
+</div>
+
+			
+		</div>
+	
+	
+	<div class="headerTitle ">
+		
+		<h1 test-id="course_header_title">CTEL 1, 2, 3 Combined Exam (031/032/033) Study Guide and Test Prep</h1>
+
+		
+
+	</div>
+
+	
+	
+	
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="wrapper " ng-controller="CourseProgressController as cp" ng-init="cp.init(true, true, false, 536345)" data-load-ng-sanitize="">
+	
+	<div class="pageTabs">
+		<ul>
+			<li class="active" id="courseOverviewTab" test-id="course_overview_tab">
+				<a href="#overview" data-toggle="tab" data-cname="overview_tab" test-id="overview_tab" data-target="#overviewTab" data-tabpath="" data-tabdefault="" data-tabhistory="" class="">
+					
+					<span class="icon icon-list-ul"></span>
+					
+					<span class="tabTitle"> Overview</span>
+				</a>
+			</li>
+			
+			
+				<li test-id="syllabus_tab">
+					<a href="#information" data-toggle="tab" data-cname="course_info_tab" test-id="course_info_tab" data-target="#courseInfoTab" data-tabpath="" data-tabhistory="" class="">
+						
+						<span class="icon icon-info-sign"></span>
+						
+						<span class="tabTitle">Syllabus</span>
+					</a>
+				</li>
+			
+			
+			
+			
+
+			
+				<li test-id="credit_tab">
+					<a href="#credit" data-toggle="tab" data-cname="get_credit_tab" test-id="get_credit_tab" data-target="#getCreditTab" data-tabpath="" data-tabhistory="" class="">
+						
+						<span class="icon icon-badge"></span>
+						
+						<span class="tabTitle">
+							
+								
+								
+								Credit
+							
+						</span>
+					</a>
+				</li>
+			
+
+			
+				
+			
+
+			
+				
+					
+						<li test-id="exams_tab">
+							<a href="#exam" data-toggle="tab" data-cname="exams_tab" test-id="exams_tab_anchor" data-target="#examTab" data-tabpath="" data-tabhistory="" class="">
+								
+									<span class="icon icon-pencil"></span>
+								
+								<span class="tabTitle">Tests</span>
+							</a>
+						</li>
+					
+					
+					
+				
+			
+		</ul>
+	</div>
+	
+	
+		
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="tab-content pageTabContent" id="knowledgeGraphCenter">
+<div class="tab-pane active in fade tabContentPane" id="overviewTab">
+	
+	<div class="courseSummary" data-tabinsert="COURSE SUMMARY" data-cname="course_summary" test-id="course_summary">
+		<h3>
+			
+				
+				Course Summary
+			
+		</h3>
+		Use this study guide to prepare for the California Teacher of English Learners (CTEL) exam. This course uses interactive video lessons and self-assessment quizzes to review the information you'll need to know to succeed on all three CTEL subtests.
+
+		
+		
+
+		
+			
+		
+
+		
+
+				
+
+
+
+
+
+
+
+
+
+
+
+	<div ng-show="cp.initialized" ng-class="{'enroll-explanation': cp.currentCourseProgress.enrolled !== true}" class="">
+		<div class="visible-xs course-summary-enroll-button">
+			
+				
+				
+				
+				
+				
+					<!----><react-ng ng-if="cp.currentCourseProgressInitialized &amp;&amp; cp.currentCourseProgress.course.academyAssetId" require-path="enroll/EnrollSuccessOverlay" component-name="EnrollSuccessOverlay" prop-number-course-asset-id="536345" prop-string-course-resource-name="ctel-1-2-3-combined-exam-031-032-033-study-guide-practice" prop-string-course-title="CTEL 1, 2, 3 Combined Exam (031/032/033) Study Guide and Test Prep" prop-boolean-course-progress-enrolled="true" prop-boolean-has-current-course-progress="true" prop-boolean-course-progress-in-progress="true" prop-string-modal-id="courseSummaryEnrollSuccessOverlay" prop-string-next-lesson-image="l1yudsam12.jpg" prop-string-next-lesson-title="ESL Push-In Programs: Definition &amp; Instruction" prop-string-next-lesson-url="/academy/lesson/esl-push-in-programs-definition-instruction.html" prop-string-course-benefit-explanation-id="course-benefit-explanation"><div id="courseSummaryEnrollSuccessOverlay" class="modal fade enroll-success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-cname="enroll_success_overlay" test-id="enroll_success_overlay"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close" data-cname="enrollment_success_close" test-id="enrollment_success_close"><span aria-hidden="true">×</span></button></div></div></div></div></react-ng><!---->
+				
+			
+		</div>
+		<div id="course-benefit-explanation" ng-show="cp.currentCourseProgress.enrolled !== true" class="ng-hide">
+			<div class="enroll-explanation__title">
+				Starting this course will allow you to:
+			</div>
+			<div class="enroll-explanation-icon-row">
+	<div class="enroll-explanation-column">
+		<div class="icon icon-quiz_next"></div>
+		<div class="enroll-explanation__description">
+			Track progress &amp; pick up where you left off
+		</div>
+	</div>
+	<div class="enroll-explanation-column">
+		<div class="icon icon-dashboard"></div>
+		<div class="enroll-explanation__description">
+			Add this course to your dashboard
+		</div>
+	</div>
+	<div class="enroll-explanation-column">
+		<div class="icon icon-final_exam"></div>
+		<div class="enroll-explanation__description">
+			Study with practice tests
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+
+
+				<div class="visible-xs">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+				</div>
+			
+
+			
+
+
+		
+
+	</div>
+
+	
+
+	
+	
+	
+	
+		
+	
+
+	
+
+	
+		
+			
+			
+			
+			
+				
+				
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+	
+	
+		
+			
+			
+			
+			
+			
+			<div class="practice-test-cta practice-test-cta--member" test-id="practice_test_cta">
+				
+					
+						<div class="practice-test-cta__title">
+							Continue the Course Practice Test
+						</div>
+						<div class="practice-test-cta__content">
+							<div class="practice-test-cta__image-container">
+								<img class="practice-test-cta__image" src="/images/course/practice-test.png" alt="Practice Test Image">
+							</div>
+							<div class="practice-test-cta__info-container">
+								<p class="practice-test-cta__info">Your test has been paused while in progress.</p>
+								<a class="btn btn-primary practice-test-cta__button" href="/index.html" test-id="status-aware-exam-btn" data-cname="course_take_practice_test_link">
+									Continue Practice Test
+								</a>
+							</div>
+						</div>
+					
+					
+					
+				
+			</div>
+		
+	
+
+				<hr class="practice-test-cta-line-break practice-test-cta-line-break--member">
+			
+			
+			
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="clearfix"></div>
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----><div ng-if="cp.currentCourseProgress.activeQuizCount &gt; 0 &amp;&amp; true" class="full courseProgress wrapper" id="courseProgressAnchor" test-id="course_progress_module">
+	<h3>
+		<span class="courseProgress__title">
+			Course Progress
+			 /
+				<span ng-show="cp.initialized">
+				<a data-scroll="#courseNavigation" class="activeChapters" data-cname="cp_active_chapters_link" test-id="cp_active_chapters_link">
+					10 active chapters
+				</a>
+			</span>
+			
+		</span>
+		
+	</h3>
+	<div class="clearfix ng-hide" ng-show="!cp.initialized">
+		<img class="loadingSpinner" src="/images/reDesign/global/spinner-dark-teal.png">
+	</div>
+	<div class="clearfix" ng-show="cp.initialized">
+		<div class="wide cp-section">
+			
+			
+			
+				
+				<h4>You have completed 25% of
+					the quizzes!
+				</h4>
+				
+				<div class="progressBarContainer">
+					<div class="progressBar" test-id="course_progress_bar" ng-class="{'progressBarSuccess': cp.currentCourseProgress.percentComplete === 100}">
+						<!---->
+						<!----><small ng-if="cp.currentCourseProgress.percentComplete !== 100 &amp;&amp; true" class="stat">54 of
+							216 quizzes passed</small><!---->
+						
+						<div class="barContainer" ng-style="{'width': cp.currentCourseProgress.percentComplete+'%'}" style="width: 25%;">
+						<span class="animatedBar">
+						</span>
+						</div>
+					</div>
+					
+						<!---->
+					
+				</div>
+				
+				<!---->
+			
+		
+		</div>
+		<div class="cp-section">
+			
+			<!---->
+			
+			<!----><div ng-if="((cp.currentCourseProgress.percentComplete !== 100 &amp;&amp; true) || (false &amp;&amp; true)) &amp;&amp; cp.currentCourseProgress.nextLesson &amp;&amp; true">
+				<h4>Your next lesson:</h4>
+				<!----><a data-virtual="536345" ng-href="/esl-push-in-programs-definition-instruction.html" ng-if="cp.currentCourseProgress['lessonExamsPassed'] != cp.currentCourseProgress.course['lessonCount']" data-cname="course_progress_next_lesson" href="/esl-push-in-programs-definition-instruction.html">
+					<div class="nextLesson" test-id="course__progress__next-lesson">
+						<!---->
+						<!----><div class="imgWithPlayIcon imgWithPlayIcon--practice-test-visibility-v1" title="ESL Push-In Programs: Definition &amp; Instruction" ng-if="cp.currentCourseProgress['nextLesson']['videoPreviewImageUri']">
+							<img ng-src="https://study.com/cimages/videopreview/videopreview-small/l1yudsam12.jpg" alt="ESL Push-In Programs: Definition &amp; Instruction" data-default-src="" src="https://study.com/cimages/videopreview/videopreview-small/l1yudsam12.jpg">
+							<span class="playIcon"><span class="triangle"></span></span>
+						</div><!---->
+						<span ng-bind-html="cp.currentCourseProgress['nextLesson']['title']">ESL Push-In Programs: Definition &amp; Instruction</span>
+					</div>
+				</a><!---->
+			</div><!---->
+		</div>
+	</div>
+	
+		
+</div><!---->
+
+
+
+
+
+
+	
+	
+	<div class="clearfix"></div>
+
+	
+	
+	
+	
+	
+	
+		<div id="courseNavigation">
 			
 				
 				
@@ -3815,7 +4423,7 @@
 
 
 
-<div id="chapterHeader4" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter4" data-cname="course_chapter_4Factors Affecting Language Development" test-id="course_chapter_4Factors Affecting Language Development">
+<div id="chapterHeader4" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter4" data-cname="course_chapter_4Factors Affecting Language Development" test-id="course_chapter_4Factors Affecting Language Development">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 4. Factors Affecting Language Development
 	</span>
@@ -3854,7 +4462,7 @@
 
 
 
-<div id="chapter4" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter4" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -5117,7 +5725,7 @@
 
 
 
-<div id="chapterHeader5" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter5" data-cname="course_chapter_5California Phonology &amp; Morphology ESL Instruction" test-id="course_chapter_5California Phonology &amp; Morphology ESL Instruction">
+<div id="chapterHeader5" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter5" data-cname="course_chapter_5California Phonology &amp; Morphology ESL Instruction" test-id="course_chapter_5California Phonology &amp; Morphology ESL Instruction">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 5. California Phonology &amp; Morphology ESL Instruction
 	</span>
@@ -5152,7 +5760,7 @@
 
 
 
-<div id="chapter5" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter5" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -7647,7 +8255,7 @@
 
 
 
-<div id="chapterHeader6" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter6" data-cname="course_chapter_6Teaching ESL Syntax &amp; Semantics in California" test-id="course_chapter_6Teaching ESL Syntax &amp; Semantics in California">
+<div id="chapterHeader6" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter6" data-cname="course_chapter_6Teaching ESL Syntax &amp; Semantics in California" test-id="course_chapter_6Teaching ESL Syntax &amp; Semantics in California">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 6. Teaching ESL Syntax &amp; Semantics in California
 	</span>
@@ -7682,7 +8290,7 @@
 
 
 
-<div id="chapter6" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter6" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -9243,7 +9851,7 @@
 
 
 
-<div id="chapterHeader7" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter7" data-cname="course_chapter_7Language Functions &amp; Variation for ESL" test-id="course_chapter_7Language Functions &amp; Variation for ESL">
+<div id="chapterHeader7" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter7" data-cname="course_chapter_7Language Functions &amp; Variation for ESL" test-id="course_chapter_7Language Functions &amp; Variation for ESL">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 7. Language Functions &amp; Variation for ESL
 	</span>
@@ -9278,7 +9886,7 @@
 
 
 
-<div id="chapter7" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter7" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -10999,7 +11607,7 @@
 
 
 
-<div id="chapterHeader8" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter8" data-cname="course_chapter_8Discourse &amp; Pragmatics for ESL Students" test-id="course_chapter_8Discourse &amp; Pragmatics for ESL Students">
+<div id="chapterHeader8" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter8" data-cname="course_chapter_8Discourse &amp; Pragmatics for ESL Students" test-id="course_chapter_8Discourse &amp; Pragmatics for ESL Students">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 8. Discourse &amp; Pragmatics for ESL Students
 	</span>
@@ -11034,7 +11642,7 @@
 
 
 
-<div id="chapter8" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter8" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -13001,7 +13609,7 @@
 
 
 
-<div id="chapterHeader9" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter9" data-cname="course_chapter_9Evaluating English Language Development Programs" test-id="course_chapter_9Evaluating English Language Development Programs">
+<div id="chapterHeader9" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter9" data-cname="course_chapter_9Evaluating English Language Development Programs" test-id="course_chapter_9Evaluating English Language Development Programs">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 9. Evaluating English Language Development Programs
 	</span>
@@ -13036,7 +13644,7 @@
 
 
 
-<div id="chapter9" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter9" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -13653,7 +14261,7 @@
 
 
 
-<div id="chapterHeader10" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter10" data-cname="course_chapter_10Standards-Based Assessment for ELL in California" test-id="course_chapter_10Standards-Based Assessment for ELL in California">
+<div id="chapterHeader10" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter10" data-cname="course_chapter_10Standards-Based Assessment for ELL in California" test-id="course_chapter_10Standards-Based Assessment for ELL in California">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 10. Standards-Based Assessment for ELL in California
 	</span>
@@ -13688,7 +14296,7 @@
 
 
 
-<div id="chapter10" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter10" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -14787,7 +15395,7 @@
 
 
 
-<div id="chapterHeader11" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter11" data-cname="course_chapter_11Purposes &amp; Types of Assessment for ELL" test-id="course_chapter_11Purposes &amp; Types of Assessment for ELL">
+<div id="chapterHeader11" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter11" data-cname="course_chapter_11Purposes &amp; Types of Assessment for ELL" test-id="course_chapter_11Purposes &amp; Types of Assessment for ELL">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 11. Purposes &amp; Types of Assessment for ELL
 	</span>
@@ -14822,7 +15430,7 @@
 
 
 
-<div id="chapter11" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter11" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -16969,7 +17577,7 @@
 
 
 
-<div id="chapterHeader12" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter12" data-cname="course_chapter_12Language &amp; Content-Area Assessment for ELL" test-id="course_chapter_12Language &amp; Content-Area Assessment for ELL">
+<div id="chapterHeader12" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter12" data-cname="course_chapter_12Language &amp; Content-Area Assessment for ELL" test-id="course_chapter_12Language &amp; Content-Area Assessment for ELL">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 12. Language &amp; Content-Area Assessment for ELL
 	</span>
@@ -17004,7 +17612,7 @@
 
 
 
-<div id="chapter12" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter12" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -17629,7 +18237,7 @@
 
 
 
-<div id="chapterHeader13" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter13" data-cname="course_chapter_13Programs &amp; Requirements for English Learners in California" test-id="course_chapter_13Programs &amp; Requirements for English Learners in California">
+<div id="chapterHeader13" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter13" data-cname="course_chapter_13Programs &amp; Requirements for English Learners in California" test-id="course_chapter_13Programs &amp; Requirements for English Learners in California">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 13. Programs &amp; Requirements for English Learners in California
 	</span>
@@ -17664,7 +18272,7 @@
 
 
 
-<div id="chapter13" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter13" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -19383,7 +19991,7 @@
 
 
 
-<div id="chapterHeader14" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter14" data-cname="course_chapter_14Foundations of English Language Literacy" test-id="course_chapter_14Foundations of English Language Literacy">
+<div id="chapterHeader14" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter14" data-cname="course_chapter_14Foundations of English Language Literacy" test-id="course_chapter_14Foundations of English Language Literacy">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 14. Foundations of English Language Literacy
 	</span>
@@ -19418,7 +20026,7 @@
 
 
 
-<div id="chapter14" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter14" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -21285,7 +21893,7 @@
 
 
 
-<div id="chapterHeader15" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter15" data-cname="course_chapter_15English Language Development Approaches &amp; Methods" test-id="course_chapter_15English Language Development Approaches &amp; Methods">
+<div id="chapterHeader15" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter15" data-cname="course_chapter_15English Language Development Approaches &amp; Methods" test-id="course_chapter_15English Language Development Approaches &amp; Methods">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 15. English Language Development Approaches &amp; Methods
 	</span>
@@ -21320,7 +21928,7 @@
 
 
 
-<div id="chapter15" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter15" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -22569,7 +23177,7 @@
 
 
 
-<div id="chapterHeader16" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter16" data-cname="course_chapter_16Listening &amp; Speaking for California Student English Language Development" test-id="course_chapter_16Listening &amp; Speaking for California Student English Language Development">
+<div id="chapterHeader16" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter16" data-cname="course_chapter_16Listening &amp; Speaking for California Student English Language Development" test-id="course_chapter_16Listening &amp; Speaking for California Student English Language Development">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 16. Listening &amp; Speaking for California Student English Language Development
 	</span>
@@ -22604,7 +23212,7 @@
 
 
 
-<div id="chapter16" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter16" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -24329,7 +24937,7 @@
 
 
 
-<div id="chapterHeader17" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter17" data-cname="course_chapter_17Reading &amp; Writing for California Student English Language Development" test-id="course_chapter_17Reading &amp; Writing for California Student English Language Development">
+<div id="chapterHeader17" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter17" data-cname="course_chapter_17Reading &amp; Writing for California Student English Language Development" test-id="course_chapter_17Reading &amp; Writing for California Student English Language Development">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 17. Reading &amp; Writing for California Student English Language Development
 	</span>
@@ -24364,7 +24972,7 @@
 
 
 
-<div id="chapter17" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter17" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -26669,7 +27277,7 @@
 
 
 
-<div id="chapterHeader18" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter18" data-cname="course_chapter_18Specially Designed Academic Instruction in English (SDAIE)" test-id="course_chapter_18Specially Designed Academic Instruction in English (SDAIE)">
+<div id="chapterHeader18" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter18" data-cname="course_chapter_18Specially Designed Academic Instruction in English (SDAIE)" test-id="course_chapter_18Specially Designed Academic Instruction in English (SDAIE)">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 18. Specially Designed Academic Instruction in English (SDAIE)
 	</span>
@@ -26704,7 +27312,7 @@
 
 
 
-<div id="chapter18" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter18" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -27477,7 +28085,7 @@
 
 
 
-<div id="chapterHeader19" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter19" data-cname="course_chapter_19Instructional Planning &amp; Organization for ELD &amp; SDAIE" test-id="course_chapter_19Instructional Planning &amp; Organization for ELD &amp; SDAIE">
+<div id="chapterHeader19" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter19" data-cname="course_chapter_19Instructional Planning &amp; Organization for ELD &amp; SDAIE" test-id="course_chapter_19Instructional Planning &amp; Organization for ELD &amp; SDAIE">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 19. Instructional Planning &amp; Organization for ELD &amp; SDAIE
 	</span>
@@ -27512,7 +28120,7 @@
 
 
 
-<div id="chapter19" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter19" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -28603,7 +29211,7 @@
 
 
 
-<div id="chapterHeader20" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter20" data-cname="course_chapter_20Components of Effective Instructional Delivery in ELD &amp; SDAIE" test-id="course_chapter_20Components of Effective Instructional Delivery in ELD &amp; SDAIE">
+<div id="chapterHeader20" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter20" data-cname="course_chapter_20Components of Effective Instructional Delivery in ELD &amp; SDAIE" test-id="course_chapter_20Components of Effective Instructional Delivery in ELD &amp; SDAIE">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 20. Components of Effective Instructional Delivery in ELD &amp; SDAIE
 	</span>
@@ -28638,7 +29246,7 @@
 
 
 
-<div id="chapter20" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter20" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -30185,7 +30793,7 @@
 
 
 
-<div id="chapterHeader21" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter21" data-cname="course_chapter_21Effective Resource Use in ELD &amp; SDAIE" test-id="course_chapter_21Effective Resource Use in ELD &amp; SDAIE">
+<div id="chapterHeader21" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter21" data-cname="course_chapter_21Effective Resource Use in ELD &amp; SDAIE" test-id="course_chapter_21Effective Resource Use in ELD &amp; SDAIE">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 21. Effective Resource Use in ELD &amp; SDAIE
 	</span>
@@ -30220,7 +30828,7 @@
 
 
 
-<div id="chapter21" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter21" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -30847,7 +31455,7 @@
 
 
 
-<div id="chapterHeader22" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter22" data-cname="course_chapter_22Cultural Concepts &amp; Perspectives in Education" test-id="course_chapter_22Cultural Concepts &amp; Perspectives in Education">
+<div id="chapterHeader22" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter22" data-cname="course_chapter_22Cultural Concepts &amp; Perspectives in Education" test-id="course_chapter_22Cultural Concepts &amp; Perspectives in Education">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 22. Cultural Concepts &amp; Perspectives in Education
 	</span>
@@ -30886,7 +31494,7 @@
 
 
 
-<div id="chapter22" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter22" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -32775,7 +33383,7 @@
 
 
 
-<div id="chapterHeader23" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter23" data-cname="course_chapter_23Cultural Contact in the Classroom" test-id="course_chapter_23Cultural Contact in the Classroom">
+<div id="chapterHeader23" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter23" data-cname="course_chapter_23Cultural Contact in the Classroom" test-id="course_chapter_23Cultural Contact in the Classroom">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 23. Cultural Contact in the Classroom
 	</span>
@@ -32814,7 +33422,7 @@
 
 
 
-<div id="chapter23" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter23" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -34227,7 +34835,7 @@
 
 
 
-<div id="chapterHeader24" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter24" data-cname="course_chapter_24Cultural Diversity in California &amp; the U.S." test-id="course_chapter_24Cultural Diversity in California &amp; the U.S.">
+<div id="chapterHeader24" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter24" data-cname="course_chapter_24Cultural Diversity in California &amp; the U.S." test-id="course_chapter_24Cultural Diversity in California &amp; the U.S.">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 24. Cultural Diversity in California &amp; the U.S.
 	</span>
@@ -34266,7 +34874,7 @@
 
 
 
-<div id="chapter24" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter24" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -35344,7 +35952,7 @@
 
 
 
-<div id="chapterHeader25" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter25" data-cname="course_chapter_25Cross-Cultural Interaction in Education" test-id="course_chapter_25Cross-Cultural Interaction in Education">
+<div id="chapterHeader25" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter25" data-cname="course_chapter_25Cross-Cultural Interaction in Education" test-id="course_chapter_25Cross-Cultural Interaction in Education">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 25. Cross-Cultural Interaction in Education
 	</span>
@@ -35383,7 +35991,7 @@
 
 
 
-<div id="chapter25" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter25" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -37256,7 +37864,7 @@
 
 
 
-<div id="chapterHeader26" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter26" data-cname="course_chapter_26Creating Culturally Inclusive Learning Environments" test-id="course_chapter_26Creating Culturally Inclusive Learning Environments">
+<div id="chapterHeader26" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter26" data-cname="course_chapter_26Creating Culturally Inclusive Learning Environments" test-id="course_chapter_26Creating Culturally Inclusive Learning Environments">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 26. Creating Culturally Inclusive Learning Environments
 	</span>
@@ -37295,7 +37903,7 @@
 
 
 
-<div id="chapter26" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter26" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -38708,7 +39316,7 @@
 
 
 
-<div id="chapterHeader27" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter27" data-cname="course_chapter_27Family &amp; Community Involvement in Culturally Inclusive Education" test-id="course_chapter_27Family &amp; Community Involvement in Culturally Inclusive Education">
+<div id="chapterHeader27" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter27" data-cname="course_chapter_27Family &amp; Community Involvement in Culturally Inclusive Education" test-id="course_chapter_27Family &amp; Community Involvement in Culturally Inclusive Education">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 27. Family &amp; Community Involvement in Culturally Inclusive Education
 	</span>
@@ -38747,7 +39355,7 @@
 
 
 
-<div id="chapter27" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter27" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -39814,7 +40422,7 @@
 
 
 
-<div id="chapterHeader28" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter28" data-cname="course_chapter_28Culturally Inclusive Curriculum &amp; Instruction" test-id="course_chapter_28Culturally Inclusive Curriculum &amp; Instruction">
+<div id="chapterHeader28" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter28" data-cname="course_chapter_28Culturally Inclusive Curriculum &amp; Instruction" test-id="course_chapter_28Culturally Inclusive Curriculum &amp; Instruction">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 28. Culturally Inclusive Curriculum &amp; Instruction
 	</span>
@@ -39853,7 +40461,7 @@
 
 
 
-<div id="chapter28" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter28" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -40646,7 +41254,7 @@
 
 
 
-<div id="chapterHeader29" class="fullCourseNavigator-chapter-header collapsed" data-toggle="collapse" data-target="#chapter29" data-cname="course_chapter_29CTEL 1, 2, 3 Combined Exam (031/032/033) Flashcards" test-id="course_chapter_29CTEL 1, 2, 3 Combined Exam (031/032/033) Flashcards">
+<div id="chapterHeader29" class="fullCourseNavigator-chapter-header" data-toggle="collapse" data-target="#chapter29" data-cname="course_chapter_29CTEL 1, 2, 3 Combined Exam (031/032/033) Flashcards" test-id="course_chapter_29CTEL 1, 2, 3 Combined Exam (031/032/033) Flashcards">
 	<span class="fullCourseNavigator-chapter-title">
 		Ch 29. CTEL 1, 2, 3 Combined Exam (031/032/033) Flashcards
 	</span>
@@ -40681,7 +41289,7 @@
 
 
 
-<div id="chapter29" class="fullCourseNavigator-chapter-content collapse " test-id="fullCourseNavigator-chapter-content">
+<div id="chapter29" class="fullCourseNavigator-chapter-content collapse in" test-id="fullCourseNavigator-chapter-content" style="">
 	<table>
 		<thead>
 			
@@ -40736,7 +41344,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-theories,-processes-&amp;-stages-of-language-acquisition.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="552069">
+			<a href="/flashcards-theories,-processes-&amp;-stages-of-language-acquisition.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="552069">
 				 Flashcards - Theories, Processes &amp; Stages of Language Acquisition
 			</a>
 		
@@ -40867,7 +41475,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-california-phonology-&amp;-morphology-esl-instruction.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="552073">
+			<a href="/flashcards-california-phonology-&amp;-morphology-esl-instruction.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="552073">
 				 Flashcards - California Phonology &amp; Morphology ESL Instruction
 			</a>
 		
@@ -40998,7 +41606,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-teaching-esl-syntax-&amp;-semantics-in-california.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="552077">
+			<a href="/flashcards-teaching-esl-syntax-&amp;-semantics-in-california.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="552077">
 				 Flashcards - Teaching ESL Syntax &amp; Semantics in California
 			</a>
 		
@@ -41129,7 +41737,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-language-functions-&amp;-variation-for-esl.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="552071">
+			<a href="/flashcards-language-functions-&amp;-variation-for-esl.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="552071">
 				 Flashcards - Language Functions &amp; Variation for ESL
 			</a>
 		
@@ -41260,7 +41868,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-discourse-&amp;-pragmatics-for-esl-students.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="552075">
+			<a href="/flashcards-discourse-&amp;-pragmatics-for-esl-students.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="552075">
 				 Flashcards - Discourse &amp; Pragmatics for ESL Students
 			</a>
 		
@@ -41391,7 +41999,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-programs-&amp;-requirements-for-english-learners-in-california.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="565283">
+			<a href="/flashcards-programs-&amp;-requirements-for-english-learners-in-california.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="565283">
 				 Flashcards - Programs &amp; Requirements for English Learners in California
 			</a>
 		
@@ -41522,7 +42130,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-reading-&amp;-writing-for-california-student-english-language-development.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="565299">
+			<a href="/flashcards-reading-&amp;-writing-for-california-student-english-language-development.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="565299">
 				 Flashcards - Reading &amp; Writing for California Student English Language Development
 			</a>
 		
@@ -41653,7 +42261,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-instructional-planning-&amp;-organization-for-eld-&amp;-sdaie.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="565285">
+			<a href="/flashcards-instructional-planning-&amp;-organization-for-eld-&amp;-sdaie.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="565285">
 				 Flashcards - Instructional Planning &amp; Organization for ELD &amp; SDAIE
 			</a>
 		
@@ -41784,7 +42392,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-components-of-effective-instructional-delivery-in-eld-&amp;-sdaie.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="565287">
+			<a href="/flashcards-components-of-effective-instructional-delivery-in-eld-&amp;-sdaie.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="565287">
 				 Flashcards - Components of Effective Instructional Delivery in ELD &amp; SDAIE
 			</a>
 		
@@ -41915,7 +42523,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-cultural-concepts-&amp;-perspectives-in-education.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="547495">
+			<a href="/flashcards-cultural-concepts-&amp;-perspectives-in-education.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="547495">
 				 Flashcards - Cultural Concepts &amp; Perspectives in Education
 			</a>
 		
@@ -42046,7 +42654,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-cultural-contact-in-the-classroom.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="547501">
+			<a href="/flashcards-cultural-contact-in-the-classroom.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="547501">
 				 Flashcards - Cultural Contact in the Classroom
 			</a>
 		
@@ -42177,7 +42785,7 @@
 	
 		
 		
-			<a href="/academy/flashcards/flashcards-cross-cultural-interaction-in-education.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="547499">
+			<a href="/flashcards-cross-cultural-interaction-in-education.html" data-virtual="536345" test-id="course_page__lesson" data-test-lesson-academy-asset-id="547499">
 				 Flashcards - Cross-Cultural Interaction in Education
 			</a>
 		
@@ -42369,3 +42977,4531 @@
 			
 			
 		</div>
+	 
+	     
+	     
+			  
+	     
+	  
+		
+	
+	
+	
+		<div class="relatedContentTabs no-print" id="relatedContentContainer">
+			
+				
+				
+					<h4>Related CTEL Courses</h4>
+				
+			
+			
+			
+			
+			
+			
+			
+			
+    <div id="coursesCarousel" class="carousel slide" data-interval="false" data-related-content-carousel="">
+        <!-- Wrapper for slides -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+	
+    <div class="related-asset-paywall carousel-inner noBorders">
+            
+        
+            
+                <div class="item active">
+            
+            <div class="lesson sixths">
+                <a class="lesson-inner clearfix" href="/ctel-1-language-language-development-practice-study-guide.html" data-cname="related_courseCarousel_1" test-id="related_courseCarousel_1">
+							
+
+
+
+
+
+
+	
+	
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+    
+        <div class="imgWithPlayIcon " title="CTEL 1 - Language &amp; Language Development (031) Study Guide and Exam Prep" data-cname="" test-id="">
+            <img data-default-src="https://study.com/cimages/videopreview/homeCoursePreview.jpg" src="https://study.com/cimages/course-image/ctel-1-language-language-development-practice-study-guide_611775_small.jpeg" data-lazy-src="https://study.com/cimages/course-image/ctel-1-language-language-development-practice-study-guide_611775_small.jpeg" alt="CTEL 1 - Language &amp; Language Development (031) Study Guide and Exam Prep">
+            
+                <span class="playIcon">
+                    <span class="triangle"></span>
+                </span>
+            
+        </div>
+    
+    
+
+	
+	
+
+                    <div class="lesson-body">
+                        <div class="title">CTEL 1 - Language &amp; Language Development (031) Study Guide and Exam Prep
+                            
+                        </div>
+                    </div>
+                </a>
+					
+            </div>
+            
+        
+            
+            <div class="lesson sixths">
+                <a class="lesson-inner clearfix" href="/ctel-2-assessment-instruction-practice-study-guide.html" data-cname="related_courseCarousel_2" test-id="related_courseCarousel_2">
+							
+
+
+
+
+
+
+	
+	
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+    
+        <div class="imgWithPlayIcon " title="CTEL 2 - Assessment &amp; Instruction (032) Study Guide and Exam Prep" data-cname="" test-id="">
+            <img data-default-src="https://study.com/cimages/videopreview/homeCoursePreview.jpg" src="https://study.com/cimages/course-image/ctel-2-assessment-instruction-practice-study-guide_614261_small.jpeg" data-lazy-src="https://study.com/cimages/course-image/ctel-2-assessment-instruction-practice-study-guide_614261_small.jpeg" alt="CTEL 2 - Assessment &amp; Instruction (032) Study Guide and Exam Prep">
+            
+                <span class="playIcon">
+                    <span class="triangle"></span>
+                </span>
+            
+        </div>
+    
+    
+
+	
+	
+
+                    <div class="lesson-body">
+                        <div class="title">CTEL 2 - Assessment &amp; Instruction (032) Study Guide and Exam Prep
+                            
+                        </div>
+                    </div>
+                </a>
+					
+            </div>
+            
+        
+            
+            <div class="lesson sixths">
+                <a class="lesson-inner clearfix" href="/ctel-3-culture-inclusion-practice-study-guide.html" data-cname="related_courseCarousel_3" test-id="related_courseCarousel_3">
+							
+
+
+
+
+
+
+	
+	
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+    
+        <div class="imgWithPlayIcon " title="CTEL 3 - Culture &amp; Inclusion (033) Study Guide and Exam Prep" data-cname="" test-id="">
+            <img data-default-src="https://study.com/cimages/videopreview/homeCoursePreview.jpg" src="https://study.com/cimages/course-image/ctel-3-culture-inclusion-practice-study-guide_614685_small.jpeg" data-lazy-src="https://study.com/cimages/course-image/ctel-3-culture-inclusion-practice-study-guide_614685_small.jpeg" alt="CTEL 3 - Culture &amp; Inclusion (033) Study Guide and Exam Prep">
+            
+                <span class="playIcon">
+                    <span class="triangle"></span>
+                </span>
+            
+        </div>
+    
+    
+
+	
+	
+
+                    <div class="lesson-body">
+                        <div class="title">CTEL 3 - Culture &amp; Inclusion (033) Study Guide and Exam Prep
+                            
+                        </div>
+                    </div>
+                </a>
+					
+            </div>
+            
+                </div>
+            
+        
+    </div>
+
+
+
+
+
+        <div class="list-expand" data-expand-carousel-list="">
+            <span class="icon-chevron-down2"></span>
+            <span class="icon-chevron-up2 open-icon"></span>
+        </div>
+        <!-- Controls -->
+        
+        <!-- Indicators -->
+        
+        
+        
+    </div>
+
+		</div>
+	
+</div>
+
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="tab-pane  fade tabContentPane accordionOne pageTabContentWithSideBar" id="courseInfoTab" test-id="courseInfoTab">
+	
+			
+			<div class="wikiContent hidden"><p></p><div title="Course Summary~" class="chapter"><h2 id="section---AboutThisCTEL123CombinedExamCourseStudyGuide">About This CTEL 1, 2, 3 Combined Exam: Course &amp; Study Guide</h2>
+<p>This course and study guide is a compilation of video lessons and practice quizzes that align with the subjects that could appear on the CTEL 1, 2, 3 Combined exam. The study guide is taught by expert instructors who examine topics like the theories, processes, and stages of language acquisition; phonology; morphology; foundations of English language literacy; and language development approaches and methods. This course is self-paced and designed to meet your learning needs to prepare you for taking the CTEL 031/032/033 exam.
+</p>
+<p>Check out our <a class="external" href="https://study.com/ctel/index.html">CTEL test prep</a> materials! We've got comprehensive course and study guides to help you study, <a class="external" href="https://study.com/ctel/ctel-practice-tests.html">CTEL practice tests</a> to test your knowledge, and informational CTEL resources to get you up to speed on testing logistics.
+</p>
+<p></p></div>
+<p></p>
+<p></p><div title="Exam Information~" class="chapter"><h2 id="section---CTEL123CombinedExamInformation">CTEL 1, 2, 3 Combined Exam Information</h2>
+<ul><li><b>Number of Questions</b>: 154
+</li><li><b>Question Type</b>: 150 multiple-choice, 4 essays
+</li><li><b>Time Limit</b>: 6 hours for all three subtests
+</li><li><b>Exam Cost</b>:  $260
+</li></ul><h2 id="section---CTEL123CombinedExamBreakdown">CTEL 1, 2, 3 Combined Exam Breakdown</h2>
+<p>
+</p><table class="wikitable" border="1"><tbody><tr class="odd"><th> Subtest </th><th>Question Type &amp; Number</th></tr>
+<tr><td> Language and Language Development Subtest 1 </td><td> 50 Multiple Choice &amp; 1 Essay</td></tr>
+<tr class="odd"><td> Assessment and Instruction Subtest 2 </td><td> 60 Multiple Choice &amp; 2 Essays</td></tr>
+<tr><td> Culture and Inclusion Subtest 3 </td><td> 40 Multiple Choice &amp; 1 Essay</td></tr>
+</tbody></table><p></p></div>
+<p></p>
+<p></p><div title="Syllabus~" class="chapter"><h2 id="section---CTEL123CombinedExamCourseInformation">CTEL 1, 2, 3 Combined Exam Course Information</h2>
+<p>This course is designed to prepare you for taking the CTEL 1, 2, 3 Combined (031/032/033) test, covering all topics outlined in the official test materials provided by Pearson Education, Inc. Our professional instructors created this comprehensive study guide to help you master these objectives. Some of the topics covered here are listed below:
+</p>
+<h4 id="section---LanguageLanguageDevelopment">Language &amp; Language Development</h4>
+<ul><li>Demonstrate knowledge of phonology and morphology
+</li><li>Identify the synaptic classes, synaptic rules in English, and English sentence patterns
+</li><li>Demonstrate understanding of the different social functions of language
+</li><li>Apply strategies for promoting English learners' communicative competence
+</li><li>Recognize pragmatic features of oral and written languages that influence or convey meaning
+</li><li>Analyze the significance for teaching and learning contemporary theories of language acquisition
+</li><li>Understand the development of language for social and academic purposes
+</li><li>Analyze the pedagogical implications of cognitive, linguistic, and physical factors affecting the development of additional languages
+</li></ul><h4 id="section---AssessmentInstruction">Assessment &amp; Instruction</h4>
+<ul><li>Demonstrate knowledge of how the California English Language Development standards support the English Language Arts standards
+</li><li>Understanding of the role and purposes of assessment in programs for English learners
+</li><li>Demonstrate conceptual understanding and applied knowledge of how to interpret and use the assessment results of English learners
+</li><li>Identify the federal and state requirements for program implementation
+</li><li>Understand the components of effective instructional delivery in ELD and SDAIE
+</li><li>List the essential procedures used in planning SDAIE lessons
+</li></ul><h4 id="section---CultureInclusion">Culture &amp; Inclusion</h4>
+<ul><li>Demonstrate knowledge of practical applications of current research and research-based theories related to cultural factors
+</li><li>Differentiate the differences among various processes of cultural contact
+</li><li>Identify the crucial issues and challenges faced by culturally and linguistically diverse groups in California
+</li><li>Apply strategies for providing authentic opportunities for English learners to use the English language
+</li><li>Demonstrate understanding of culturally inclusive curriculum and instruction
+</li></ul><p></p></div>
+<p></p>
+<p></p><div title="Prep &amp; Register~" class="chapter"><h3 id="section---RegisteringAndPreparingForTheCTEL123CombinedExam">Registering and Preparing for the CTEL 1, 2, 3 Combined Exam</h3>
+<p>Registering for this test requires that you create an account on the Commission on Teaching Credentialing (CTC) website and submit all requested information and payment of exam fees. Once your registration is processed, log in to your CTC account and click on 'Schedule.' Choose your test date and location. Once this is verified, you will receive a confirmation email from Pearson VUE, the administrator for this exam.
+</p>
+<p>Ensure that you are fully prepared to sit for the CTEL Combined test by reviewing the information discussed in this study guide. It is made up of 29 chapters and 234 lessons that align with the topics covered on the exam. Short, engaging video and text lessons explore such topics as phonology and morphology; different social functions of language; how the California English Language Development standards support the English Language Arts standards; development of language for social and academic purposes; and the critical issues and challenges faced by culturally and linguistically diverse groups in California. Lessons take only 5-10 minutes to review and are always accessible from any device, making it convenient and easy to study this material whenever and wherever you can. Use self-assessment lesson quizzes and chapter exams to demonstrate how much information you have retained and whether you are ready to take this exam.
+</p>
+<p>For more information on registering and preparing for the CTEL 031/032/033 exam, check out our <a class="external" href="https://study.com/ctel/ctel-resources.html">CTEL Informational Resources</a>.
+</p>
+<p><i>California Teacher of English Learners (CTEL) is a registered trademark of Pearson Education, Inc., or its affiliate(s), which are not affiliated with Study.com.</i>
+</p>
+<p></p></div><p></p></div>
+			
+			
+<div class="accordionOneHeader split-tab-content" data-toggle="collapse" data-target="#coursesummary" data-cname="sub_tab_coursesummary" test-id="sub_tab_coursesummary"><a>Course Summary</a></div><div class="accordionOneContent collapse split-tab-content in" id="coursesummary"><div class="accordionBlock"><h2 id="section---AboutThisCTEL123CombinedExamCourseStudyGuide">About This CTEL 1, 2, 3 Combined Exam: Course &amp; Study Guide</h2>
+<p>This course and study guide is a compilation of video lessons and practice quizzes that align with the subjects that could appear on the CTEL 1, 2, 3 Combined exam. The study guide is taught by expert instructors who examine topics like the theories, processes, and stages of language acquisition; phonology; morphology; foundations of English language literacy; and language development approaches and methods. This course is self-paced and designed to meet your learning needs to prepare you for taking the CTEL 031/032/033 exam.
+</p>
+<p>Check out our <a class="external" href="https://study.com/ctel/index.html">CTEL test prep</a> materials! We've got comprehensive course and study guides to help you study, <a class="external" href="https://study.com/ctel/ctel-practice-tests.html">CTEL practice tests</a> to test your knowledge, and informational CTEL resources to get you up to speed on testing logistics.
+</p>
+<p></p></div></div><div class="accordionOneHeader split-tab-content" data-toggle="collapse" data-target="#examinformation" data-cname="sub_tab_examinformation" test-id="sub_tab_examinformation"><a>Exam Information</a></div><div class="accordionOneContent collapse split-tab-content in" id="examinformation"><div class="accordionBlock"><h2 id="section---CTEL123CombinedExamInformation">CTEL 1, 2, 3 Combined Exam Information</h2>
+<ul><li><b>Number of Questions</b>: 154
+</li><li><b>Question Type</b>: 150 multiple-choice, 4 essays
+</li><li><b>Time Limit</b>: 6 hours for all three subtests
+</li><li><b>Exam Cost</b>:  $260
+</li></ul><h2 id="section---CTEL123CombinedExamBreakdown">CTEL 1, 2, 3 Combined Exam Breakdown</h2>
+<p>
+</p><table class="wikitable" border="1"><tbody><tr class="odd"><th> Subtest </th><th>Question Type &amp; Number</th></tr>
+<tr><td> Language and Language Development Subtest 1 </td><td> 50 Multiple Choice &amp; 1 Essay</td></tr>
+<tr class="odd"><td> Assessment and Instruction Subtest 2 </td><td> 60 Multiple Choice &amp; 2 Essays</td></tr>
+<tr><td> Culture and Inclusion Subtest 3 </td><td> 40 Multiple Choice &amp; 1 Essay</td></tr>
+</tbody></table><p></p></div></div><div class="accordionOneHeader split-tab-content" data-toggle="collapse" data-target="#syllabus" data-cname="sub_tab_syllabus" test-id="sub_tab_syllabus"><a>Syllabus</a></div><div class="accordionOneContent collapse split-tab-content in" id="syllabus"><div class="accordionBlock"><h2 id="section---CTEL123CombinedExamCourseInformation">CTEL 1, 2, 3 Combined Exam Course Information</h2>
+<p>This course is designed to prepare you for taking the CTEL 1, 2, 3 Combined (031/032/033) test, covering all topics outlined in the official test materials provided by Pearson Education, Inc. Our professional instructors created this comprehensive study guide to help you master these objectives. Some of the topics covered here are listed below:
+</p>
+<h4 id="section---LanguageLanguageDevelopment">Language &amp; Language Development</h4>
+<ul><li>Demonstrate knowledge of phonology and morphology
+</li><li>Identify the synaptic classes, synaptic rules in English, and English sentence patterns
+</li><li>Demonstrate understanding of the different social functions of language
+</li><li>Apply strategies for promoting English learners' communicative competence
+</li><li>Recognize pragmatic features of oral and written languages that influence or convey meaning
+</li><li>Analyze the significance for teaching and learning contemporary theories of language acquisition
+</li><li>Understand the development of language for social and academic purposes
+</li><li>Analyze the pedagogical implications of cognitive, linguistic, and physical factors affecting the development of additional languages
+</li></ul><h4 id="section---AssessmentInstruction">Assessment &amp; Instruction</h4>
+<ul><li>Demonstrate knowledge of how the California English Language Development standards support the English Language Arts standards
+</li><li>Understanding of the role and purposes of assessment in programs for English learners
+</li><li>Demonstrate conceptual understanding and applied knowledge of how to interpret and use the assessment results of English learners
+</li><li>Identify the federal and state requirements for program implementation
+</li><li>Understand the components of effective instructional delivery in ELD and SDAIE
+</li><li>List the essential procedures used in planning SDAIE lessons
+</li></ul><h4 id="section---CultureInclusion">Culture &amp; Inclusion</h4>
+<ul><li>Demonstrate knowledge of practical applications of current research and research-based theories related to cultural factors
+</li><li>Differentiate the differences among various processes of cultural contact
+</li><li>Identify the crucial issues and challenges faced by culturally and linguistically diverse groups in California
+</li><li>Apply strategies for providing authentic opportunities for English learners to use the English language
+</li><li>Demonstrate understanding of culturally inclusive curriculum and instruction
+</li></ul><p></p></div></div><div class="accordionOneHeader split-tab-content" data-toggle="collapse" data-target="#prepregister" data-cname="sub_tab_prepregister" test-id="sub_tab_prepregister"><a>Prep &amp; Register</a></div><div class="accordionOneContent collapse split-tab-content in" id="prepregister"><div class="accordionBlock"><h3 id="section---RegisteringAndPreparingForTheCTEL123CombinedExam">Registering and Preparing for the CTEL 1, 2, 3 Combined Exam</h3>
+<p>Registering for this test requires that you create an account on the Commission on Teaching Credentialing (CTC) website and submit all requested information and payment of exam fees. Once your registration is processed, log in to your CTC account and click on 'Schedule.' Choose your test date and location. Once this is verified, you will receive a confirmation email from Pearson VUE, the administrator for this exam.
+</p>
+<p>Ensure that you are fully prepared to sit for the CTEL Combined test by reviewing the information discussed in this study guide. It is made up of 29 chapters and 234 lessons that align with the topics covered on the exam. Short, engaging video and text lessons explore such topics as phonology and morphology; different social functions of language; how the California English Language Development standards support the English Language Arts standards; development of language for social and academic purposes; and the critical issues and challenges faced by culturally and linguistically diverse groups in California. Lessons take only 5-10 minutes to review and are always accessible from any device, making it convenient and easy to study this material whenever and wherever you can. Use self-assessment lesson quizzes and chapter exams to demonstrate how much information you have retained and whether you are ready to take this exam.
+</p>
+<p>For more information on registering and preparing for the CTEL 031/032/033 exam, check out our <a class="external" href="https://study.com/ctel/ctel-resources.html">CTEL Informational Resources</a>.
+</p>
+<p><i>California Teacher of English Learners (CTEL) is a registered trademark of Pearson Education, Inc., or its affiliate(s), which are not affiliated with Study.com.</i>
+</p>
+<p></p></div></div></div>
+		
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<div class="tab-pane fade tabContentPane accordionOne pageTabContentWithSideBar" id="getCreditTab">
+	
+		
+		
+	
+
+    <div class="accordionOneHeader " data-toggle="collapse" data-target="#earningCredit" data-cname="sub_tab_earning_credit" test-id="sub_tab_earning_credit">
+        <a>Earning Credit</a>
+    </div>
+    <div class="accordionOneContent in" id="earningCredit">
+        <div class="accordionBlock getCreditContent">
+            <h3>Earning College Credit</h3>
+
+            <p>Did you know… We have over 225 college courses that prepare you to earn
+                credit by exam that is accepted by over 2,000 colleges and universities. You can test out of the first two years of college and save
+                thousands off your degree. Anyone can earn credit-by-exam regardless of age or education level.</p>
+
+            <p>To learn more, visit our <a href="/college/index.html" data-cname="earning_credit_link" test-id="earning_credit_link">Earning Credit Page</a></p>
+        </div>
+    </div>
+</div>
+
+		
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<div class="course-exam-tab tab-pane fade tabContentPane accordionOne" id="examTab">
+	<div class="course-exam-tab__practice-test-header under-tabs" test-id="sub_tab_practice_exams" data-cname="sub_tab_practice_exams">
+		
+			
+			
+				Practice Tests in this course
+			
+		
+	</div>
+	
+	
+		
+		
+		<div class="course-exam-tab__practice-test-text under-tabs">
+			Check your knowledge of this course with a 50-question practice test. Once you take the test, you will receive
+			a detailed exam report complete with your personal statistics and even specific lessons to focus on!
+			<a href="/index.html?restart=true" data-cname="course_practice_test_description" test-id="course_practice_test_description" data-extra="536345">Take the practice test now <span class="icon icon-chevron-right"></span></a>
+		</div>
+	
+	
+		
+	
+	
+		<div class="course-exam-tab__practice-test-bullets under-tabs">
+			<div class="course-exam-tab__practice-test-bullets__header">
+				Your detailed study guide will include:
+			</div>
+			<div class="course-exam-tab__practice-test-bullets__table">
+				<ul>
+					<li>Answers and detailed explanations to each question</li>
+					<li>Video lessons to explain complicated concepts</li>
+				</ul>
+			</div>
+		</div>
+					<hr class="practice-test-cta-line-break practice-test-cta-line-break--member">
+					<div class="clearfix"></div>
+				
+				
+			
+		
+	
+	
+	
+	
+	
+
+	
+	<div class="course-exam-tab__section-header">
+		More practice by chapter
+	</div>
+	<div class="course-exam-tab__chapter-test-list">
+		
+		
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-true" test-id="practice_test_row_0">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 1
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+							
+								About the CTEL Exams
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_0">
+						
+						
+							
+								<span class="course-exam-tab__no-exam">Chapter too short for exam</span>
+							
+							
+							
+							
+							
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_1">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 2
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/theories-processes-stages-of-language-acquisition.html" data-cname="practice_test_chapter_list_title" data-extra="420067">
+										Theories, Processes &amp; Stages of Language Acquisition
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+							<div class="course-exam-tab__score__status has-score" test-id="chapter_practice_exam_progress__taken">
+								&nbsp;
+								<div class="course-exam-tab__green-bar" style="width: 83%;"></div>
+								<div class="course-exam-tab__percent">
+									Last score: 83%
+								</div>
+							</div>
+							<div class="course-exam-tab__score__review-results">
+								
+									
+									
+										<a href="/academy/exam/results.html?exam=321037710" test-id="practice_test_chapter_list_1_review_results" data-cname="practice_test_chapter_list_review_results" data-extra="420067">
+											<span class="icon icon-eye"></span>
+											Review results
+										</a>
+									
+								
+							</div>
+						
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_1">
+						
+						
+							
+							
+							
+							
+							
+								<div ng-controller="CourseProgressController as cp">
+									<a ng-click="cp.retakePracticeExam('/academy/exam/topic/theories-processes-stages-of-language-acquisition.html', 321037710, 536345)" test-id="practice_test_chapter_list_1_retake" data-cname="practice_test_chapter_list_retake" data-extra="420067">
+										<span class="icon icon-pencil"></span>
+										
+											
+											Retake Practice Test
+										
+									</a>
+								</div>
+								<div class="course-exam-tab__chapter-test-list__chapter__link__highest-score">
+									Highest score: 83%
+								</div>
+							
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_2">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 3
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/esol-instructional-models-methods.html" data-cname="practice_test_chapter_list_title" data-extra="373507">
+										ESOL Instructional Models &amp; Methods
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+							<div class="course-exam-tab__score__status has-score" test-id="chapter_practice_exam_progress__taken">
+								&nbsp;
+								<div class="course-exam-tab__green-bar" style="width: 88%;"></div>
+								<div class="course-exam-tab__percent">
+									Last score: 88%
+								</div>
+							</div>
+							<div class="course-exam-tab__score__review-results">
+								
+									
+									
+										<a href="/academy/exam/results.html?exam=322734004" test-id="practice_test_chapter_list_2_review_results" data-cname="practice_test_chapter_list_review_results" data-extra="373507">
+											<span class="icon icon-eye"></span>
+											Review results
+										</a>
+									
+								
+							</div>
+						
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_2">
+						
+						
+							
+							
+							
+							
+							
+								<div ng-controller="CourseProgressController as cp">
+									<a ng-click="cp.retakePracticeExam('/academy/exam/topic/esol-instructional-models-methods.html', 322734004, 536345)" test-id="practice_test_chapter_list_2_retake" data-cname="practice_test_chapter_list_retake" data-extra="373507">
+										<span class="icon icon-pencil"></span>
+										
+											
+											Retake Practice Test
+										
+									</a>
+								</div>
+								<div class="course-exam-tab__chapter-test-list__chapter__link__highest-score">
+									Highest score: 88%
+								</div>
+							
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_3">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 4
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/factors-affecting-language-development.html" data-cname="practice_test_chapter_list_title" data-extra="420071">
+										Factors Affecting Language Development
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__pending">
+								Pending
+							</div>
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_3">
+						
+						
+							
+							
+							
+							
+							
+							
+								<a href="/academy/exam/topic/factors-affecting-language-development.html" test-id="practice_test_chapter_list_3_continue" data-cname="practice_test_chapter_list_continue" data-extra="420071">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Continue Practice Test
+									
+								</a>
+								
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_4">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 5
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/california-phonology-morphology-esl-instruction.html" data-cname="practice_test_chapter_list_title" data-extra="420079">
+										California Phonology &amp; Morphology ESL Instruction
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__pending">
+								Pending
+							</div>
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_4">
+						
+						
+							
+							
+							
+							
+							
+							
+								<a href="/academy/exam/topic/california-phonology-morphology-esl-instruction.html" test-id="practice_test_chapter_list_4_continue" data-cname="practice_test_chapter_list_continue" data-extra="420079">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Continue Practice Test
+									
+								</a>
+								
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_5">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 6
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/teaching-esl-syntax-semantics-in-california.html" data-cname="practice_test_chapter_list_title" data-extra="420089">
+										Teaching ESL Syntax &amp; Semantics in California
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__pending">
+								Pending
+							</div>
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_5">
+						
+						
+							
+							
+							
+							
+							
+							
+								<a href="/academy/exam/topic/teaching-esl-syntax-semantics-in-california.html" test-id="practice_test_chapter_list_5_continue" data-cname="practice_test_chapter_list_continue" data-extra="420089">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Continue Practice Test
+									
+								</a>
+								
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_6">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 7
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/language-functions-variation-for-esl.html" data-cname="practice_test_chapter_list_title" data-extra="420097">
+										Language Functions &amp; Variation for ESL
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__pending">
+								Pending
+							</div>
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_6">
+						
+						
+							
+							
+							
+							
+							
+							
+								<a href="/academy/exam/topic/language-functions-variation-for-esl.html" test-id="practice_test_chapter_list_6_continue" data-cname="practice_test_chapter_list_continue" data-extra="420097">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Continue Practice Test
+									
+								</a>
+								
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_7">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 8
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/discourse-pragmatics-for-esl-students.html" data-cname="practice_test_chapter_list_title" data-extra="420109">
+										Discourse &amp; Pragmatics for ESL Students
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__pending">
+								Pending
+							</div>
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_7">
+						
+						
+							
+							
+							
+							
+							
+							
+								<a href="/academy/exam/topic/discourse-pragmatics-for-esl-students.html" test-id="practice_test_chapter_list_7_continue" data-cname="practice_test_chapter_list_continue" data-extra="420109">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Continue Practice Test
+									
+								</a>
+								
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_8">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 9
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/evaluating-english-language-development-programs.html" data-cname="practice_test_chapter_list_title" data-extra="420117">
+										Evaluating English Language Development Programs
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__pending">
+								Pending
+							</div>
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_8">
+						
+						
+							
+							
+							
+							
+							
+							
+								<a href="/academy/exam/topic/evaluating-english-language-development-programs.html" test-id="practice_test_chapter_list_8_continue" data-cname="practice_test_chapter_list_continue" data-extra="420117">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Continue Practice Test
+									
+								</a>
+								
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_9">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 10
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/standards-based-assessment-for-ell-in-california.html" data-cname="practice_test_chapter_list_title" data-extra="421673">
+										Standards-Based Assessment for ELL in California
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__pending">
+								Pending
+							</div>
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_9">
+						
+						
+							
+							
+							
+							
+							
+							
+								<a href="/academy/exam/topic/standards-based-assessment-for-ell-in-california.html" test-id="practice_test_chapter_list_9_continue" data-cname="practice_test_chapter_list_continue" data-extra="421673">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Continue Practice Test
+									
+								</a>
+								
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_10">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 11
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/purposes-types-of-assessment-for-ell.html" data-cname="practice_test_chapter_list_title" data-extra="421681">
+										Purposes &amp; Types of Assessment for ELL
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__pending">
+								Pending
+							</div>
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_10">
+						
+						
+							
+							
+							
+							
+							
+							
+								<a href="/academy/exam/topic/purposes-types-of-assessment-for-ell.html" test-id="practice_test_chapter_list_10_continue" data-cname="practice_test_chapter_list_continue" data-extra="421681">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Continue Practice Test
+									
+								</a>
+								
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_11">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 12
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/language-content-area-assessment-for-ell.html" data-cname="practice_test_chapter_list_title" data-extra="421689">
+										Language &amp; Content-Area Assessment for ELL
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__pending">
+								Pending
+							</div>
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_11">
+						
+						
+							
+							
+							
+							
+							
+							
+								<a href="/academy/exam/topic/language-content-area-assessment-for-ell.html" test-id="practice_test_chapter_list_11_continue" data-cname="practice_test_chapter_list_continue" data-extra="421689">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Continue Practice Test
+									
+								</a>
+								
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_12">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 13
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/programs-requirements-for-english-learners-in-california.html" data-cname="practice_test_chapter_list_title" data-extra="421697">
+										Programs &amp; Requirements for English Learners in California
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__pending">
+								Pending
+							</div>
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_12">
+						
+						
+							
+							
+							
+							
+							
+							
+								<a href="/academy/exam/topic/programs-requirements-for-english-learners-in-california.html" test-id="practice_test_chapter_list_12_continue" data-cname="practice_test_chapter_list_continue" data-extra="421697">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Continue Practice Test
+									
+								</a>
+								
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_13">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 14
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/foundations-of-english-language-literacy.html" data-cname="practice_test_chapter_list_title" data-extra="421715">
+										Foundations of English Language Literacy
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_13">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/foundations-of-english-language-literacy.html" test-id="practice_test_chapter_list_13" data-cname="practice_test_chapter_list" data-extra="421715">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_14">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 15
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/english-language-development-approaches-methods.html" data-cname="practice_test_chapter_list_title" data-extra="421725">
+										English Language Development Approaches &amp; Methods
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_14">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/english-language-development-approaches-methods.html" test-id="practice_test_chapter_list_14" data-cname="practice_test_chapter_list" data-extra="421725">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_15">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 16
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/listening-speaking-for-california-student-english-language-development.html" data-cname="practice_test_chapter_list_title" data-extra="421733">
+										Listening &amp; Speaking for California Student English Language Development
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_15">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/listening-speaking-for-california-student-english-language-development.html" test-id="practice_test_chapter_list_15" data-cname="practice_test_chapter_list" data-extra="421733">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_16">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 17
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/reading-writing-for-california-student-english-language-development.html" data-cname="practice_test_chapter_list_title" data-extra="421745">
+										Reading &amp; Writing for California Student English Language Development
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_16">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/reading-writing-for-california-student-english-language-development.html" test-id="practice_test_chapter_list_16" data-cname="practice_test_chapter_list" data-extra="421745">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_17">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 18
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/specially-designed-academic-instruction-in-english-sdaie.html" data-cname="practice_test_chapter_list_title" data-extra="421767">
+										Specially Designed Academic Instruction in English (SDAIE)
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_17">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/specially-designed-academic-instruction-in-english-sdaie.html" test-id="practice_test_chapter_list_17" data-cname="practice_test_chapter_list" data-extra="421767">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_18">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 19
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/instructional-planning-organization-for-eld-sdaie.html" data-cname="practice_test_chapter_list_title" data-extra="421775">
+										Instructional Planning &amp; Organization for ELD &amp; SDAIE
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_18">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/instructional-planning-organization-for-eld-sdaie.html" test-id="practice_test_chapter_list_18" data-cname="practice_test_chapter_list" data-extra="421775">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_19">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 20
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/components-of-effective-instructional-delivery-in-eld-sdaie.html" data-cname="practice_test_chapter_list_title" data-extra="421783">
+										Components of Effective Instructional Delivery in ELD &amp; SDAIE
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_19">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/components-of-effective-instructional-delivery-in-eld-sdaie.html" test-id="practice_test_chapter_list_19" data-cname="practice_test_chapter_list" data-extra="421783">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_20">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 21
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/effective-resource-use-in-eld-sdaie.html" data-cname="practice_test_chapter_list_title" data-extra="421795">
+										Effective Resource Use in ELD &amp; SDAIE
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_20">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/effective-resource-use-in-eld-sdaie.html" test-id="practice_test_chapter_list_20" data-cname="practice_test_chapter_list" data-extra="421795">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_21">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 22
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/cultural-concepts-perspectives-in-education.html" data-cname="practice_test_chapter_list_title" data-extra="421895">
+										Cultural Concepts &amp; Perspectives in Education
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+							<div class="course-exam-tab__score__status has-score" test-id="chapter_practice_exam_progress__taken">
+								&nbsp;
+								<div class="course-exam-tab__green-bar" style="width: 80%;"></div>
+								<div class="course-exam-tab__percent">
+									Last score: 80%
+								</div>
+							</div>
+							<div class="course-exam-tab__score__review-results">
+								
+									
+									
+										<a href="/academy/exam/results.html?exam=316504094" test-id="practice_test_chapter_list_21_review_results" data-cname="practice_test_chapter_list_review_results" data-extra="421895">
+											<span class="icon icon-eye"></span>
+											Review results
+										</a>
+									
+								
+							</div>
+						
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_21">
+						
+						
+							
+							
+							
+							
+							
+								<div ng-controller="CourseProgressController as cp">
+									<a ng-click="cp.retakePracticeExam('/academy/exam/topic/cultural-concepts-perspectives-in-education.html', 316504094, 536345)" test-id="practice_test_chapter_list_21_retake" data-cname="practice_test_chapter_list_retake" data-extra="421895">
+										<span class="icon icon-pencil"></span>
+										
+											
+											Retake Practice Test
+										
+									</a>
+								</div>
+								<div class="course-exam-tab__chapter-test-list__chapter__link__highest-score">
+									Highest score: 80%
+								</div>
+							
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_22">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 23
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/cultural-contact-in-the-classroom.html" data-cname="practice_test_chapter_list_title" data-extra="421901">
+										Cultural Contact in the Classroom
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_22">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/cultural-contact-in-the-classroom.html" test-id="practice_test_chapter_list_22" data-cname="practice_test_chapter_list" data-extra="421901">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_23">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 24
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/cultural-diversity-in-california-the-us.html" data-cname="practice_test_chapter_list_title" data-extra="421905">
+										Cultural Diversity in California &amp; the U.S.
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_23">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/cultural-diversity-in-california-the-us.html" test-id="practice_test_chapter_list_23" data-cname="practice_test_chapter_list" data-extra="421905">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_24">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 25
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/cross-cultural-interaction-in-education.html" data-cname="practice_test_chapter_list_title" data-extra="421919">
+										Cross-Cultural Interaction in Education
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__pending">
+								Pending
+							</div>
+						
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_24">
+						
+						
+							
+							
+							
+							
+							
+							
+								<a href="/academy/exam/topic/cross-cultural-interaction-in-education.html" test-id="practice_test_chapter_list_24_continue" data-cname="practice_test_chapter_list_continue" data-extra="421919">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Continue Practice Test
+									
+								</a>
+								
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_25">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 26
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/creating-culturally-inclusive-learning-environments.html" data-cname="practice_test_chapter_list_title" data-extra="421931">
+										Creating Culturally Inclusive Learning Environments
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_25">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/creating-culturally-inclusive-learning-environments.html" test-id="practice_test_chapter_list_25" data-cname="practice_test_chapter_list" data-extra="421931">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_26">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 27
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/family-community-involvement-in-culturally-inclusive-education.html" data-cname="practice_test_chapter_list_title" data-extra="421935">
+										Family &amp; Community Involvement in Culturally Inclusive Education
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_26">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/family-community-involvement-in-culturally-inclusive-education.html" test-id="practice_test_chapter_list_26" data-cname="practice_test_chapter_list" data-extra="421935">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_27">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 28
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+								<a href="/academy/exam/topic/culturally-inclusive-curriculum-instruction.html" data-cname="practice_test_chapter_list_title" data-extra="421943">
+										Culturally Inclusive Curriculum &amp; Instruction
+								</a>
+							
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_27">
+						
+						
+							
+							
+							
+							
+							
+							
+							
+								
+								<a href="/academy/exam/topic/culturally-inclusive-curriculum-instruction.html" test-id="practice_test_chapter_list_27" data-cname="practice_test_chapter_list" data-extra="421943">
+									<span class="icon icon-pencil"></span>
+									
+										
+										Take Practice Test
+									
+								</a>
+							
+						
+						
+					</div>
+				</div>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+				
+
+			</div>
+		
+			
+			
+			
+			
+			
+			
+			<div class="course-exam-tab__chapter-test-list__chapter first-false" test-id="practice_test_row_28">
+				<div class="course-exam-tab__chapter-test-list__chapter__score-row">
+
+					<div class="course-exam-tab__chapter-test-list__chapter__number">
+						Ch. 29
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__title">
+						
+							
+							
+								CTEL 1, 2, 3 Combined Exam (031/032/033) Flashcards
+							
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__score">
+						
+						
+						
+						
+						
+							<div class="course-exam-tab__score__status" test-id="chapter_practice_exam_progress__not_taken">
+								Not Taken
+							</div>
+						
+						
+						
+					</div>
+					<div class="course-exam-tab__chapter-test-list__chapter__link" test-id="practice_test_link_28">
+						
+						
+							
+								<span class="course-exam-tab__no-exam">Chapter too short for exam</span>
+							
+							
+							
+							
+							
+							
+							
+						
+						
+					</div>
+				</div>
+
+				
+
+			</div>
+		
+	</div>
+	
+	
+	
+	<div class="practice-test-dropdown-cta">
+		<div class="practice-test-dropdown-cta__prompt">
+			See practice tests for:
+		</div>
+		<div class="practice-test-dropdown-cta__select">
+			<practice-test-dropdown><select required="" ng-show="!practiceTestDropdownController.practiceTestDropdownSubmenu" ng-change="practiceTestDropdownController.handlePracticeTestDropdownChange()" ng-model="practiceTestDropdownController.practiceTestDropdownValue" ng-options="course as course.name for course in practiceTestDropdownController.practiceTestCourses" data-cname="practice_test_dropdown_select" class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"><option value="" disabled="" hidden="" selected="selected">AP, SAT, ACT®, GMAT, etc...</option><option label="ACT®" value="object:7">ACT®</option><option label="SAT" value="object:8">SAT</option><option label="AP ➜" value="object:9">AP ➜</option><option label="GED" value="object:10">GED</option><option label="CLEP ➜" value="object:11">CLEP ➜</option><option label="GMAT" value="object:12">GMAT</option><option label="GRE" value="object:13">GRE</option><option label="LSAT" value="object:14">LSAT</option><option label="MCAT" value="object:15">MCAT</option><option label="Teacher Certification ➜" value="object:16">Teacher Certification ➜</option></select>
+
+<a class="practice-test-dropdown-back icon-arrow-up ng-hide" ng-show="practiceTestDropdownController.practiceTestDropdownSubmenu" ng-click="practiceTestDropdownController.goToParent()" data-cname="practice_test_dropdown_go_to_parent"></a>
+
+<select required="" ng-show="practiceTestDropdownController.practiceTestDropdownSubmenu" ng-change="practiceTestDropdownController.handlePracticeTestDropdownChange()" ng-model="practiceTestDropdownController.practiceTestDropdownValue" ng-options="course as course.name for course in practiceTestDropdownController.practiceTestCourses" data-cname="practice_test_dropdown_select" class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-hide"><option value="" disabled="" hidden="" selected="selected">AP, SAT, ACT®, GMAT, etc...</option><option label="ACT®" value="object:7">ACT®</option><option label="SAT" value="object:8">SAT</option><option label="AP ➜" value="object:9">AP ➜</option><option label="GED" value="object:10">GED</option><option label="CLEP ➜" value="object:11">CLEP ➜</option><option label="GMAT" value="object:12">GMAT</option><option label="GRE" value="object:13">GRE</option><option label="LSAT" value="object:14">LSAT</option><option label="MCAT" value="object:15">MCAT</option><option label="Teacher Certification ➜" value="object:16">Teacher Certification ➜</option></select>
+</practice-test-dropdown>
+		</div>
+	</div>
+	
+	
+	
+</div>
+
+	</div>
+	
+		<div class="social-proof social-proof-center visible-phone clearfix">
+			
+
+
+
+
+
+
+
+	
+	<a data-like-site-resource="945261" data-like-site-resource-type="course" class="social-action social-proof-heart " data-cname="social_course_like" test-id="social_course_like">
+		
+			
+			
+				<span class="circle-button"></span>
+			
+		
+		<span class="text"><span data-like-action="">Like</span>
+			<span class="hidden-xs hidden-sm">this course</span>
+		</span>
+	</a>
+	<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fstudy.com/academy/course/index.html&amp;width=100&amp;" class="social-action" target="_blank" data-cname="social_course_facebook" test-id="social_course_facebook">
+		
+			
+			
+				<span class="circle-button icon-facebook"></span>
+			
+		
+		<span class="text">Share</span>
+	</a>
+		</div>
+	
+	
+	
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	<div class="mainInner" test-id="search-browse-module">
+		
+
+
+<div class="searchBrowse" data-nosnippet="">
+	
+		
+		
+			<h4 test-id="search_browse_header">Explore our library of over 88,000&nbsp;lessons</h4>
+		
+	
+	
+	<div class="searchBrowseBody">
+        <div class="searchBrowseSection">
+			  
+				  <label>Search</label>
+			  
+			  
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="/search/text/academy.html" method="GET" test-id="browse_search_form" data-cname="browse_search_form" class="searchBrowseAction input-group ng-pristine ng-valid">
+
+	
+					
+						<input type="text" required="" name="q" class="form-control" placeholder="Search Courses &amp; Lessons">
+					
+					
+                
+               
+                <span class="input-group-btn">
+								 <button type="submit" class="btn" data-cname="browse_search_form_search_icon" test-id="browse_search_form_search_icon" aria-label="bottom search button">
+                        	<span class="icon-search"></span>
+                    		</button>
+                </span>
+            
+	
+		<input type="hidden" name="pageType" value="course" autocomplete="off">
+	
+	
+</form>
+
+        </div>
+        <div class="searchBrowseSection">
+			  
+				  <label>Browse</label>
+			  
+			  
+
+            <div class="searchBrowseAction dropdown-accordion">
+					<div data-toggle="dropdown" class="dropdown" data-cname="search_browse_browse_dropdown" test-id="search_browse_browse_dropdown">
+						Browse by subject
+					</div>
+					
+				<ul class="dropdown-menu" role="menu" id="browseBySubject">
+                    <li role="menuitem">
+                        <a data-toggle="collapse" data-parent="#browseBySubject" href="#subjectCollegeAccordion">College Courses</a>
+                        <ul id="subjectCollegeAccordion" class="panel-collapse collapse in" data-cname="bottom_subject" test-id="bottom_subject">
+                            <li><a href="/academy/subj/business.html">Business</a></li>
+<li><a href="/academy/subj/english.html">English</a></li>
+<li><a href="/academy/subj/foreign-language.html">Foreign Language</a></li>
+<li><a href="/academy/subj/history.html">History</a></li>
+<li><a href="/academy/subj/humanities.html">Humanities</a></li>
+<li><a href="/academy/subj/math.html">Math</a></li>
+<li><a href="/academy/subj/science.html">Science</a></li>
+<li><a href="/academy/subj/social-science.html">Social Science</a></li>
+                            <li><a href="/academy/level/college.html">See All College Courses</a></li>
+                        </ul>
+                    </li>
+					<li role="menuitem">
+                        <a data-toggle="collapse" data-parent="#browseBySubject" href="#subjectHighSchoolAccordion">High School Courses</a>
+                        <ul id="subjectHighSchoolAccordion" class="panel-collapse collapse" data-cname="bottom_subject_high_school" test-id="bottom_subject_high_school">
+                            <li><a href="/academy/goal/transferable-credit/credit-by-exam/ap-exams-advanced-placement.html">AP</a></li>
+                            <li><a href="/academy/goal/teacher-resources/curriculum-standards/common-core-state-standards.html">Common Core</a></li>
+                            <li><a href="/academy/goal/transferable-credit/high-school-equivalency/ged-general-education-development.html">GED</a>
+                            </li>
+                            <li><a href="/academy/level/high-school.html">High School</a></li>
+                            <li><a href="/academy/goal/transferable-credit/high-school-equivalency.html">See All High School Courses</a></li>
+                        </ul>
+                    </li>
+					<li role="menuitem">
+                        <a data-toggle="collapse" data-parent="#browseBySubject" href="#subjectOtherAccordion">Other Courses</a>
+                        <ul id="subjectOtherAccordion" class="panel-collapse collapse" data-cname="bottom_subject_other" test-id="bottom_subject_other">
+                            <li><a href="/academy/goal/career/job-search-guidance.html">College &amp; Career Guidance Courses</a></li>
+                            <li><a href="/academy/goal/test-prep/college-placement-exams.html">College Placement Exams</a></li>
+                            <li><a href="/academy/goal/test-prep/entrance-exams.html">Entrance Exams</a></li>
+                            <li><a href="/academy/goal/test-prep.html">General Test Prep</a></li>
+                            <li><a href="/academy/level/middle-school.html">K-8 Courses</a></li>
+                            <li><a href="/academy/subj/lifestyle.html">Skills Courses</a></li>
+                            <li><a href="/academy/goal/professional-licensure/teacher-certification.html">Teacher Certification Exams</a></li>
+                            <li><a href="/index.html">See All Other Courses</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+	</div>
+
+	
+	
+		
+
+
+
+
+
+<div class="footerBreadcrumb hidden-xs col-sm-10" data-cname="breadcrumbs" test-id="breadcrumbs" data-track-visible="">
+	
+	
+	
+	
+			<a href="/index.html"> Courses</a> /
+	
+		
+			
+		
+			
+		
+	
+		
+			<a href="/academy/subj/social-science.html" itemprop="url">
+				<span itemprop="title">Social Science Courses</span></a> /
+			
+		
+	
+	
+	<span>CTEL 1, 2, 3 Combined Exam (031/032/033) Study Guide and Test Prep</span>
+	
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+			"@type": "ListItem",
+			"position": 1,
+			"name": "Courses",
+			"item": "https://study.com/academy/course/index.html"
+		},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"name": "Social Science Courses",
+					"item": "https://study.com/academy/subj/social-science.html"
+				}
+			]
+		}
+	</script>
+
+</div>
+	
+
+</div>
+
+
+
+
+    
+    
+
+
+
+
+	
+		
+		
+		
+			
+			
+				
+				
+					<react-init require-path="redesign/lesson/InstantAnswersPopUpViews" function-name="renderInstantAnswersPopUpView" prop-string-cname-prefix="tray"><div class="instantAnswerPopUp hidden-xs"><div data-cname="instant_answer_pop_up_tab" test-id="instant_answer_pop_up_tab" class="instantAnswerPopUpTab"><div class="icon icon-talk"></div><div class="valign-middle"><span id="askAHomeworkQuestion">Ask a Homework Question</span><div class="availability"> Tutors available</div></div></div><div class="clearfix"></div><div class="instantAnswerPopUpBorder"><div class="instantAnswerPopUpContent"><div class="instant-answers-module" data-cname="instant_answer_pop_up_content" test-id="instant_answer_pop_up_content"><button role="button" data-cname="instant_answer_pop_up_close" test-id="instant_answer_pop_up_close" class="corner-close-btn close hidden-xs">×</button><div class="visible-xs instant-answers-module__above-page"><span class="instant-answers-module__above-page-content">Ask a HW question</span><button role="button" data-cname="instant_answer_pop_up_close_mobile" test-id="instant_answer_pop_up_close_mobile" class="corner-close-btn close">×</button></div><div class="instant-answers-module__page" data-cname="instant_answer_question_prompt" test-id="instant_answer_question_prompt" data-track-visible="true"><div class="instant-answers-module__page-header">Our tutors are standing&nbsp;by</div><p class="instant-answers-module__page-subheader">Ask a question and one of our academic experts will send you an answer within hours. Make sure to include all the information needed to answer the question. Please direct questions about technical support or the Study.com website to <a href="https://study.com/contact/index.html" target="_blank" data-cname="instant_answers_tech_support" test-id="instant_answers_tech_support">customer support</a>.</p><form name="instant-answers-form" class="instant-answers-form"><div class="instant-answers-form"><div class="instant-answers-form__text-and-upload"><div id="mceu_5" class="mce-tinymce mce-container mce-panel" hidefocus="1" tabindex="-1" role="application" style="visibility: hidden; border-width: 1px;"><div id="mceu_5-body" class="mce-container-body mce-stack-layout"><div id="mceu_6" class="mce-container mce-menubar mce-toolbar mce-stack-layout-item mce-first" role="menubar" style="border-width: 0px 0px 1px;"><div id="mceu_6-body" class="mce-container-body mce-flow-layout"></div></div><div id="mceu_7" class="mce-toolbar-grp mce-container mce-panel mce-stack-layout-item" hidefocus="1" tabindex="-1" role="group"><div id="mceu_7-body" class="mce-container-body mce-stack-layout"><div id="mceu_8" class="mce-container mce-toolbar mce-stack-layout-item mce-first mce-last" role="toolbar"><div id="mceu_8-body" class="mce-container-body mce-flow-layout"><div id="mceu_9" class="mce-container mce-flow-layout-item mce-first mce-last mce-btn-group" role="group"><div id="mceu_9-body"><div id="mceu_0" class="mce-widget mce-btn mce-answersRemaining mce-first mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_0" role="button"><button role="presentation" type="button" tabindex="-1"><span class="mce-txt"><span data-cname="instant_answers_questions_remaining" test-id="instant_answers_questions_remaining"><b class="green"> 10</b> answers remaining</span><b class="addMore" data-cname="instant_answers_add_more" test-id="instant_answers_add_more">Add more</b></span></button></div><div id="mceu_1" class="mce-widget mce-btn" tabindex="-1" aria-labelledby="mceu_1" role="button" aria-label="Bold"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bold"></i></button></div><div id="mceu_2" class="mce-widget mce-btn" tabindex="-1" aria-labelledby="mceu_2" role="button" aria-label="Italic"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-italic"></i></button></div><div id="mceu_3" class="mce-widget mce-btn" tabindex="-1" aria-labelledby="mceu_3" role="button" aria-label="Bullet list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bullist"></i></button></div><div id="mceu_4" class="mce-widget mce-btn mce-last" tabindex="-1" aria-labelledby="mceu_4" role="button" aria-label="Numbered list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-numlist"></i></button></div></div></div></div></div></div></div><div id="mceu_10" class="mce-edit-area mce-container mce-panel mce-stack-layout-item mce-last" hidefocus="1" tabindex="-1" role="group" style="border-width: 1px 0px 0px;"><iframe id="tiny-react_68043428911786944902219_ifr" frameborder="0" allowtransparency="true" title="Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press ALT-0 for help" src="javascript:&quot;&quot;" style="width: 100%; height: 150px; display: block;"></iframe></div></div></div><textarea id="tiny-react_68043428911786944902219" style="display: none;" aria-hidden="true"></textarea><label id="uploadHere" class="instant-answers-form__upload-here" data-cname="instant_answers_tray_attachment" test-id="instant_answers_tray_attachment"><span test-id="no_attachment_message"><span class="hidden-xs">Drop photo or image here to upload or <span class="instant-answers-form__select-file">select&nbsp;file</span></span><span class="visible-xs">Take a picture</span></span><input type="file" class="hidden"></label></div></div><div class="instant-answers-form__row"><div class="instant-answers-form__select-container"><select class="form-control instant-answers-form__select" data-cname="instant_answers_tray_subject" test-id="instant_answers_tray_subject" name="iaSubject" required=""><option value="">Select a subject</option><option value="Business">Business</option><option value="Computer Science">Computer Science</option><option value="English">English</option><option value="History">History</option><option value="Humanities">Humanities</option><option value="Math">Math</option><option value="Psychology">Psychology</option><option value="Science">Science</option><option value="Social Science">Social Science</option></select></div><div class="instant-answers-form__button-container"><button data-cname="instant_answers_tray_submit" test-id="instant_answers_tray_submit" disabled="" type="submit" class="btn btn-primary btn-cta instant-answers-form__button btn btn-primary"><span>Get Answer</span></button></div></div></form><div class="instant-answers-module__text-below"><div class="instant-answers-module__terms">By submitting, I am agreeing to the <a href="https://study.com/pages/terms_of_use.html" data-cname="instant_answer_pop_up_terms" test-id="instant_answer_pop_up_terms" target="_blank">Terms of Use </a>and <a href="https://study.com/pages/terms_of_use.html#honorCode" data-cname="instant_answer_pop_up_honor_code" test-id="instant_answer_pop_up_honor_code" target="_blank"> Honor Code.</a></div></div></div></div></div></div></div></react-init>
+				
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
